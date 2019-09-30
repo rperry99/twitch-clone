@@ -1,11 +1,10 @@
 @import url("reset.css");
 
-/* 
-  Follower Background: #212126
-  Twtich Purple: #9147ff
-  Twitch Red: #e21212
-  Nav Bar: #18181b
-*/
+// Variables
+$follower-background: #212126;
+$twitch-purple: #9147ff;
+$twitch-red: #e21212;
+$nav-bar: #18181b;
 
 html {
   font-family: "Roboto", sans-serif;
@@ -53,8 +52,8 @@ nav a {
 }
 
 .active {
-  border-bottom: solid 3px #9147ff;
-  color: #9147ff;
+  border-bottom: solid 3px $twitch-purple;
+  color: $twitch-purple;
 }
 .bits {
   font-weight: 300;
@@ -80,7 +79,7 @@ nav a {
   border-radius: 5px 0 0 5px;
 }
 .search-icon i {
-  color: #9147ff;
+  color: $twitch-purple;
 }
 input {
   width: 300px;
@@ -189,7 +188,7 @@ aside h3 {
   font-weight: 300;
 }
 .show-link {
-  color: #9147ff;
+  color: $twitch-purple;
   font-size: 0.7rem;
 }
 .recommended {
@@ -207,19 +206,19 @@ aside h3 {
 .aside-search input {
   width: 180px;
   background-color: #19171c;
-  border-top: solid 1px #9147ff;
-  border-right: solid 1px #9147ff;
-  border-bottom: solid 1px #9147ff;
-  color: #9147ff;
+  border-top: solid 1px $twitch-purple;
+  border-right: solid 1px $twitch-purple;
+  border-bottom: solid 1px $twitch-purple;
+  color: $twitch-purple;
 }
 .aside-search button {
   background: #19171c;
-  border-top: solid 1px #9147ff;
-  border-left: solid 1px #9147ff;
-  border-bottom: solid 1px #9147ff;
+  border-top: solid 1px $twitch-purple;
+  border-left: solid 1px $twitch-purple;
+  border-bottom: solid 1px $twitch-purple;
 }
 .aside-search button i {
-  color: #9147ff;
+  color: $twitch-purple;
   font-size: 0.7rem;
 }
 

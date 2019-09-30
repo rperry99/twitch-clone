@@ -1,0 +1,22 @@
+{
+  "name": "twitch-clone",
+  "version": "1.0.0",
+  "description": "Twitch Clone",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rperry99/twitch-clone.git"
+  },
+  "author": "rperry99",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rperry99/twitch-clone/issues"
+  },
+  "homepage": "https://github.com/rperry99/twitch-clone#readme",
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
