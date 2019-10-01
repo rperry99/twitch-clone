@@ -5,6 +5,7 @@
   Twtich Purple: #BF94FF
   Twitch Red: #e21212
   Nav Bar: #18181b
+  Asside Search: #424246
 */
 
 html {
@@ -125,7 +126,8 @@ aside {
   float: left;
 }
 .main-content {
-  width: calc(100vw - 275px);
+  width: calc(100vw - 300px);
+  height: auto;
   float: right;
 }
 hr {
@@ -223,6 +225,10 @@ aside h3 {
   font-weight: bold;
   letter-spacing: 1px;
 }
+.content {
+  width: 99%;
+  margin: 0 auto;
+}
 #live-channels {
   display: flex;
   flex-direction: row;
@@ -298,4 +304,34 @@ aside h3 {
 }
 .live-text {
   flex-grow: 2;
+}
+
+.special-divider {
+  width: 95%;
+  margin: 30px auto;
+  text-align: center;
+  color: #bf94ff;
+  font-size: 0.9rem;
+  position: relative;
+}
+.special-text {
+  background: black;
+  position: absolute;
+  padding: 5px 10px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.special-divider .special-text i {
+  color: #bf94ff;
+}
+.special-divider .line {
+  width: 100%;
+  height: 2px;
+  background: #424246;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
