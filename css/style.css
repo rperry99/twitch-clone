@@ -218,10 +218,10 @@ aside h3 {
   font-size: 0.7rem;
 }
 
-.main-content h2 {
+.main-content .content h2 {
   font-weight: 300;
   font-size: 1.1rem;
-  margin: 15px 0 15px 21px;
+  margin: 15px 0;
   font-weight: bold;
   letter-spacing: 1px;
 }
@@ -277,7 +277,8 @@ aside h3 {
 .offline {
   filter: grayscale(100%);
 }
-.live-info {
+.live-info,
+.categories {
   display: flex;
   justify-content: space-between;
   margin-top: 5px;
@@ -313,6 +314,7 @@ aside h3 {
   color: #bf94ff;
   font-size: 0.9rem;
   position: relative;
+  border: solid 1px transparent;
 }
 .special-text {
   background: black;
@@ -322,16 +324,21 @@ aside h3 {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.special-divider .special-text i {
+.special-divider .special-text i,
+.highlight {
   color: #bf94ff;
 }
 .special-divider .line {
   width: 100%;
-  height: 2px;
+  height: 1px;
   background: #424246;
   display: inline-block;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+.category img,
+.category .live-info {
+  width: 85%;
 }
