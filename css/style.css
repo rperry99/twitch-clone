@@ -343,29 +343,25 @@ aside h3 {
   width: 85%;
 }
 
-.live-icon {
-  background: #e21212;
+.live-image {
+  position: relative;
+}
+.live-icon,
+.live-views {
   padding: 3px;
   border-radius: 3px;
   width: max-content;
   text-align: center;
   font-size: 0.8rem;
-  font-weight: bold;
   position: absolute;
-  top: 10px;
   left: 10px;
+}
+.live-icon {
+  background: #e21212;
+  font-weight: bold;
+  top: 10px;
 }
 .live-views {
   background: rgba(0, 0, 0, 0.5);
-  font-size: 0.8rem;
-  width: max-content;
-  padding: 3px;
-  text-align: center;
-  border-radius: 3px;
-  position: absolute;
   bottom: 10px;
-  left: 10px;
-}
-.live-image {
-  position: relative;
 }
