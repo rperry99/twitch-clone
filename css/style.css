@@ -12,6 +12,7 @@ html {
   font-family: "Roboto", sans-serif;
   background: black;
   color: white;
+  overflow: hidden;
 }
 header {
   display: flex;
@@ -368,7 +369,6 @@ aside h3 {
 #featured {
   position: relative;
   margin: 20px auto;
-  width: 95%;
   height: 300px;
   transform: translateX(100px);
 }
